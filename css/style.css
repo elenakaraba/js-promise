@@ -1,0 +1,31 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+h2 {
+	margin:20px auto;
+	text-align:center;
+}
+
+table {
+	margin:0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th {
+	font-weight:bold;
+	background-color:#ddd;
+}
+td, th {
+	padding:10px;
+	border:thin solid silver;
+	text-align:center;
+}
+.newItem td {
+	color: silver;
+	background-color:#000;
+}
