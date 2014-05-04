@@ -4,7 +4,7 @@ function req(url, method, sendInfo) {
 	return new Promise(function(resolve, reject) {
 		var xhr = new XMLHttpRequest();
 		xhr.open(method, url, true);
-		if (method == 'POST' || 'PUT') {
+		if (method == 'POST' || method == 'PUT') {
 			xhr.setRequestHeader("Content-Type", "application/json");
 		}
 		xhr.onreadystatechange = function() {
